@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sign Up</title>
+		<style type="text/css" media="screen">
+			label {
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Buat Account Baru!</h1>
+		<form action="welcome.html" method="POST">
+			<h2>Sign Up Form</h2>
+			<p class="pBlock">
+				<label for="txtFirstname">First name</label>
+				<input type="text" name="txtFirstname"/>
+			</p>
+			
+			<p>
+				<label for="txtLastname">Last name</label>
+				<input type="text" name="txtLastname"/>
+			</p>
+			<p>
+				<label for="gender">Gender</label>
+				<input id="rdMale" type="radio" name="gender" value="Male" checked="checked"/>Male<br/>
+				<input id="rdFemale" type="radio" name="gender" value="Female"/>Female<br/>
+				<input id="rdOther" type="radio" name="gender" value="Other"/>Other<br/>
+			</p>
+			
+			<p>
+				<label for="ddlNation">Nationality:</label>
+				<select name="ddlNation">
+					<option value="indo">Indonesian</option>
+					<option value="sing">Singaporean</option>
+					<option value="malay">Malaysian</option>
+					<option value="aus">Australian</option>
+				</select>
+			</p>
+			<p>
+				<label for="chkLang">Language Spoken</label>
+				<input id="chkIn" type="checkbox" name="chkLang" value="in"/>Bahasa Indonesia<br/>
+				<input id="chkEn" type="checkbox" name="chkLang" value="en"/>English<br/>
+				<input id="chkOther" type="checkbox" name="chkLang" value="other"/>Other<br/>
+			</p>
+			<p>
+				<label for="txtBio">Bio:</label>
+				<textarea name="txtBio" rows="6"></textarea>
+			</p>
+			<p>
+				<input type="submit" value="Sign Up" id="btnSubmit" >
+			</p>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,85 @@
+* {
+	/*padding added to size*/
+	box-sizing: border-box; 
+}
+
+html, body {
+	margin : 0px;
+	padding : 0px;
+}
+
+body {
+	background-image: url("img/sample-pattern.png");
+	background-repeat: repeat;
+	font-family: Slabo, sans-serif;
+	cursor:default;
+}
+
+header {
+	top: 0px;
+	padding:10px 5px;
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	display: block;
+	z-index:1;
+}
+
+nav {
+	padding-right: 30px;
+	float: right;
+}
+ul {
+	margin:5px auto;
+	list-style-type: none;
+	text-align: center;
+}
+li {
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+section {
+	margin-top:100px;
+	position: relative;
+}
+h1 {
+	letter-spacing: 2px;
+	color: #164482;
+	text-align: center;
+	font-weight: 600;
+	font-size:36px;
+}
+
+#article-list {
+	background-color: white;
+	width: 70%;
+	margin: 40px auto 40px auto;
+	padding: 20px;
+}
+
+article {
+	padding-bottom:0.5em;
+}
+
+a {
+	text-decoration: none;
+	color: #0097E8;
+	font-size: 18px;
+}
+
+p {
+	font-size: 14px;
+}
+
+footer {
+	background-color: black;
+	width: 100%;
+	color: white;
+	text-align: center;
+	padding: 0.25em;
+	bottom: 0px;
+	margin-bottom:0px;
+	position:relative;
+}
+
