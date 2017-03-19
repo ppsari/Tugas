@@ -1,0 +1,21 @@
+/* tugas 1 */
+BACA dan SIMPAN "angka1"
+BACA dan SIMPAN "angka2"
+HITUNG "hasil kali" dari "angka1" kali "angka2"
+TULISKAN "hasil kali"
+
+/* tugas 2 */
+BACA dan SIMPAN "kata1"
+IF  "kata1" adalah "Saya Belajar JavaScript!" THEN
+	TULISKAN "Pasti Bisa!"
+ENDIF
+
+/* tugas 3 */
+BACA DAN SIMPAN "angka1"
+ULANGI setiap pertambahan 1 pada 'index' dari 1 sampai "angka1":  
+	IF "angka2" adalah 1 atau  "angka2" modulus 3 adalah 0 THEN
+		TULISKAN "angka2"
+	ENDIF
+	HITUNG "angka2" tambah 1
+	SIMPAN "angka2" adalah hasil hitungan sebelumnya
+ENDULANGI
