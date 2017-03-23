@@ -96,7 +96,7 @@ var Musuh = function(){
 					qty: getRandom(1,100)
 				};
 };
-function startGame(){
+var startGame = function(){
 	var nama = prompt('Masukan nama Anda: ');
 	var ras = '';
 
