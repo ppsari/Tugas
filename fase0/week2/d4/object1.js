@@ -18,13 +18,3 @@ mobil1.warna = 'Silver';
 mobil1.maju();
 console.log('Mobil 2 adalah ' + mobil2.pabrikan + ' ' + mobil2.model + ' ' + mobil2.warna);
 mobil2.maju();
-
-/*
-Mobil Tesla Ludicrous Merah, bergerak maju
-VM106:15 Mobil 1 adalah Honda Accord Hitam
-VM106:6 Mobil Honda Accord Hitam, bergerak maju
-VM106:6 Mobil Honda Accord Silver, bergerak maju
-VM106:19 Mobil 2 adalah Honda Civic Silver
-VM106:6 Mobil Honda Civic Silver, bergerak maju
-
-*/
