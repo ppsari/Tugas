@@ -25,11 +25,11 @@ angka = [2,1,12,20,8,1,26,1,18,0,6,5,18,7,21,19] //Balthazar Fergus
  - Buatlah susunan huruf itu menjadi sebuah string
 
 */
-var alpha = " abcdefghijklmnopqrstuvwxyz".split('');
+let alpha = " abcdefghijklmnopqrstuvwxyz".split('');
 function nextTargetName(angka){
   if (!Array.isArray(angka)) return 'SALAH';
 
-  var validasi = true;
+  let validasi = true;
   angka.forEach( (x) => ( (x > 26 || x < 0)? validasi = 'SALAH' : validasi = validasi ) );
   if (validasi === true) {
   	angka = angka.map( (x) => ( alpha[x]) ).join('');
