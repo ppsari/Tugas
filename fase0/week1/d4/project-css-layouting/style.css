@@ -1,6 +1,6 @@
 * {
 	/*padding added to size*/
-	box-sizing: border-box; 
+	box-sizing: border-box;
 }
 
 html, body {
@@ -75,11 +75,10 @@ p {
 footer {
 	background-color: black;
 	width: 100%;
-	color: white;
+	color: rgb(214, 6, 223);
 	text-align: center;
 	padding: 0.25em;
 	bottom: 0px;
 	margin-bottom:0px;
 	position:relative;
 }
-
